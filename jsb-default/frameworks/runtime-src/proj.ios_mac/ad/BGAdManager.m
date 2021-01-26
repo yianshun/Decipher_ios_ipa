@@ -16,11 +16,13 @@
 }
 
 + (void)showBannerAd {
-    
+    AppController *appCtlr = [[UIApplication sharedApplication] delegate];
+    [appCtlr showBannerAd];
 }
 
 + (void)hideBannerAd {
-    
+    AppController *appCtlr = [[UIApplication sharedApplication] delegate];
+    [appCtlr hideBannerAd];
 }
 
 @end

@@ -56,18 +56,18 @@ Application* app = nullptr;
 }
 
 - (void)showRewardVideoAd {
-    ATCheckLoadModel *checkLoadModel = [[ATAdManager sharedManager] checkSplashLoadStatusForPlacementID:AT_VIDEO_PID];
+    ATCheckLoadModel *checkLoadModel = [[ATAdManager sharedManager] checkRewardedVideoLoadStatusForPlacementID:AT_VIDEO_PID];
     if (checkLoadModel.isReady) {
         [[ATAdManager sharedManager] showRewardedVideoWithPlacementID:AT_VIDEO_PID inViewController:_viewController delegate:self];
     } else {
         [[ATAdManager sharedManager] loadADWithPlacementID:AT_VIDEO_PID extra:@{} delegate:self];
+        [self evalString:@"cc.director.emit('fail')"];
     }
 }
 
 ATBannerView *_bannerView;
 - (void)showBannerAd {
-    ATCheckLoadModel *checkLoadModel = [[ATAdManager sharedManager] checkSplashLoadStatusForPlacementID:AT_BANNER_PID];
-    if (checkLoadModel.isReady) {
+    if ([[ATAdManager sharedManager] bannerAdReadyForPlacementID:AT_BANNER_PID]) {
         _bannerView = [[ATAdManager sharedManager] retrieveBannerViewForPlacementID:AT_BANNER_PID];
         _bannerView.delegate = self;
         _bannerView.presentingViewController = _viewController;
@@ -76,6 +76,7 @@ ATBannerView *_bannerView;
         //Layour banner
         CGFloat width = CGRectGetWidth(_viewController.view.bounds);
         [_viewController.view addConstraint:[NSLayoutConstraint constraintWithItem:_viewController.view attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:_bannerView attribute:NSLayoutAttributeCenterX multiplier:1.0f constant:.0f]];
+        [_viewController.view addConstraint:[NSLayoutConstraint constraintWithItem:_viewController.view attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:_bannerView attribute:NSLayoutAttributeBottom multiplier:1.0f constant:.0f]];
         [_viewController.view addConstraint:[NSLayoutConstraint constraintWithItem:_bannerView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:width]];
         [_viewController.view addConstraint:[NSLayoutConstraint constraintWithItem:_bannerView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:width/3]];
     } else {
@@ -86,6 +87,7 @@ ATBannerView *_bannerView;
 - (void)hideBannerAd {
     [_bannerView removeFromSuperview];
     _bannerView = nil;
+    [self ploadBannerAd];
 }
 
 #pragma mark -
@@ -235,7 +237,7 @@ ATBannerView *_bannerView;
             [[ATAdManager sharedManager] loadADWithPlacementID:AT_SPLASH_PID extra:@{kATSplashExtraTolerateTimeoutKey:@5.5} delegate:self];
         }
     } else if ([placementID isEqualToString:AT_VIDEO_PID]) {
-        NSLog(@"RV Demo: didFinishLoadingADWithnPlacementID");
+        NSLog(@"RV Demo: didFinishLoadingADWithPlacementID");
     } else if ([placementID isEqualToString:AT_BANNER_PID]) {
         NSLog(@"Banner Demo: didFinishLoadingADWithPlacementID");
     }
@@ -274,7 +276,8 @@ ATBannerView *_bannerView;
 }
 
 - (void)rewardedVideoDidCloseForPlacementID:(NSString *)placementID rewarded:(BOOL)rewarded extra:(NSDictionary *)extra {
-    
+    NSLog(@"RV Demo: rewardedVideoDidCloseForPlacementID");
+    [[ATAdManager sharedManager] loadADWithPlacementID:AT_VIDEO_PID extra:@{} delegate:self];
 }
 
 - (void)rewardedVideoDidDeepLinkOrJumpForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra result:(BOOL)success {
@@ -310,7 +313,8 @@ ATBannerView *_bannerView;
 }
 
 - (void)bannerView:(ATBannerView *)bannerView didCloseWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra {
-    
+    NSLog(@"Banner Demo: didCloseWithPlacementID");
+    [self ploadBannerAd];
 }
 
 - (void)bannerView:(ATBannerView *)bannerView didDeepLinkOrJumpForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra result:(BOOL)success {
