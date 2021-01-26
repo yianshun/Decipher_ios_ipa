@@ -6,3 +6,9 @@
 	#import <Foundation/Foundation.h>
 	#import <UIKit/UIKit.h>
 #endif
+
+#define AT_APPID @"a600e2af436890"
+#define AT_APPKEY @"bcf7d4774bbd36d905aa1c1d5e89af74"
+#define AT_VIDEO_PID @"b600e2b3c1889a"
+#define AT_BANNER_PID @"b600e2b1bf1ad3"
+#define AT_SPLASH_PID @"b600e2b021a6e8"

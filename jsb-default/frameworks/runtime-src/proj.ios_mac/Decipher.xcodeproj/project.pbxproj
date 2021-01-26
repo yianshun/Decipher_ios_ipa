@@ -54,6 +54,43 @@
 		509D4AE717EBB81800697056 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AE617EBB81800697056 /* OpenGL.framework */; };
 		509D4AE917EBB82000697056 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AE817EBB82000697056 /* AppKit.framework */; };
 		509D4AEB17EBB82600697056 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AEA17EBB82600697056 /* IOKit.framework */; };
+		86175D0425BE97A300725341 /* MTGSDKBidding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CDF25BE979600725341 /* MTGSDKBidding.framework */; };
+		86175D0525BE97A300725341 /* MTGSDKNativeAdvanced.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE025BE979600725341 /* MTGSDKNativeAdvanced.framework */; };
+		86175D0625BE97A300725341 /* MTGSDKBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE125BE979600725341 /* MTGSDKBanner.framework */; };
+		86175D0725BE97A300725341 /* AnyThinkMintegralAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE225BE979600725341 /* AnyThinkMintegralAdapter.framework */; };
+		86175D0825BE97A300725341 /* MTGSDKInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE325BE979600725341 /* MTGSDKInterstitial.framework */; };
+		86175D0925BE97A300725341 /* MTGSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE425BE979600725341 /* MTGSDK.framework */; };
+		86175D0A25BE97A300725341 /* MTGSDKSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE525BE979600725341 /* MTGSDKSplash.framework */; };
+		86175D0B25BE97A300725341 /* MTGSDKReward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE625BE979600725341 /* MTGSDKReward.framework */; };
+		86175D0C25BE97A300725341 /* MTGSDKInterstitialVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CE725BE979600725341 /* MTGSDKInterstitialVideo.framework */; };
+		86175D0D25BE97A300725341 /* AnyThinkSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86175CE925BE979800725341 /* AnyThinkSDK.bundle */; };
+		86175D0E25BE97A300725341 /* AnyThinkBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CEA25BE979800725341 /* AnyThinkBanner.framework */; };
+		86175D0F25BE97A300725341 /* AnyThinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CEB25BE979800725341 /* AnyThinkSDK.framework */; };
+		86175D1025BE97A300725341 /* AnyThinkInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CEC25BE979800725341 /* AnyThinkInterstitial.framework */; };
+		86175D1125BE97A300725341 /* AnyThinkSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CED25BE979800725341 /* AnyThinkSplash.framework */; };
+		86175D1225BE97A300725341 /* AnyThinkRewardedVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CEE25BE979800725341 /* AnyThinkRewardedVideo.framework */; };
+		86175D1325BE97A300725341 /* AnyThinkNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CEF25BE979800725341 /* AnyThinkNative.framework */; };
+		86175D1425BE97A300725341 /* AnyThinkGDTAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF125BE979B00725341 /* AnyThinkGDTAdapter.framework */; };
+		86175D1525BE97A300725341 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF225BE979B00725341 /* libGDTMobSDK.a */; };
+		86175D1625BE97A300725341 /* AnyThinkKuaiShouAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF425BE979D00725341 /* AnyThinkKuaiShouAdapter.framework */; };
+		86175D1825BE97A300725341 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF725BE979D00725341 /* MJExtension.framework */; };
+		86175D1925BE97A300725341 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF825BE979D00725341 /* SDWebImage.framework */; };
+		86175D1A25BE97A300725341 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF925BE979D00725341 /* AFNetworking.framework */; };
+		86175D1B25BE97A300725341 /* WindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CFB25BE979E00725341 /* WindSDK.framework */; };
+		86175D1C25BE97A300725341 /* AnyThinkSigmobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CFC25BE979E00725341 /* AnyThinkSigmobAdapter.framework */; };
+		86175D1D25BE97A300725341 /* Sigmob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86175CFD25BE979F00725341 /* Sigmob.bundle */; };
+		86175D1E25BE97A300725341 /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CFF25BE97A300725341 /* BUAdSDK.framework */; };
+		86175D1F25BE97A300725341 /* AnyThinkPangleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175D0025BE97A300725341 /* AnyThinkPangleAdapter.framework */; };
+		86175D2025BE97A300725341 /* BUCNAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175D0125BE97A300725341 /* BUCNAuxiliary.framework */; };
+		86175D2125BE97A300725341 /* BUFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175D0225BE97A300725341 /* BUFoundation.framework */; };
+		86175D2225BE97A300725341 /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86175D0325BE97A300725341 /* BUAdSDK.bundle */; };
+		86175D2625BEA24200725341 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175D2525BEA24200725341 /* libresolv.9.tbd */; };
+		86175D2A25BEA28300725341 /* libbz2.1.0.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175D2925BEA28300725341 /* libbz2.1.0.5.tbd */; };
+		86175D2D25BEA35E00725341 /* KSAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF525BE979D00725341 /* KSAdSDK.framework */; };
+		86175D2E25BEA35E00725341 /* KSAdSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86175CF525BE979D00725341 /* KSAdSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86175D3925BEA7D300725341 /* BGRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 86175D3825BEA7D300725341 /* BGRewardVideoAd.m */; };
+		86175D3C25BEBBAE00725341 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86175D3B25BEBBAE00725341 /* AppTrackingTransparency.framework */; };
+		86175D4225BFC0BE00725341 /* BGAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86175D4125BFC0BE00725341 /* BGAdManager.m */; };
 		A92275421517C094001B78AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275411517C094001B78AA /* QuartzCore.framework */; };
 		A92275441517C094001B78AA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275431517C094001B78AA /* OpenGLES.framework */; };
 		A92275461517C094001B78AA /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275451517C094001B78AA /* OpenAL.framework */; };
@@ -110,6 +147,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		86175D2F25BEA35E00725341 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				86175D2E25BEA35E00725341 /* KSAdSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		051C017421E2F91200D4A347 /* UserConfigIOS.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UserConfigIOS.debug.xcconfig; path = ios/UserConfigIOS.debug.xcconfig; sourceTree = "<group>"; };
 		051C017521E2F91200D4A347 /* UserConfigIOS.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UserConfigIOS.release.xcconfig; path = ios/UserConfigIOS.release.xcconfig; sourceTree = "<group>"; };
@@ -160,6 +211,44 @@
 		509D4AE617EBB81800697056 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		509D4AE817EBB82000697056 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		509D4AEA17EBB82600697056 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		86175CDF25BE979600725341 /* MTGSDKBidding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBidding.framework; sourceTree = "<group>"; };
+		86175CE025BE979600725341 /* MTGSDKNativeAdvanced.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKNativeAdvanced.framework; sourceTree = "<group>"; };
+		86175CE125BE979600725341 /* MTGSDKBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBanner.framework; sourceTree = "<group>"; };
+		86175CE225BE979600725341 /* AnyThinkMintegralAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkMintegralAdapter.framework; sourceTree = "<group>"; };
+		86175CE325BE979600725341 /* MTGSDKInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterstitial.framework; sourceTree = "<group>"; };
+		86175CE425BE979600725341 /* MTGSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDK.framework; sourceTree = "<group>"; };
+		86175CE525BE979600725341 /* MTGSDKSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKSplash.framework; sourceTree = "<group>"; };
+		86175CE625BE979600725341 /* MTGSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKReward.framework; sourceTree = "<group>"; };
+		86175CE725BE979600725341 /* MTGSDKInterstitialVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterstitialVideo.framework; sourceTree = "<group>"; };
+		86175CE925BE979800725341 /* AnyThinkSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AnyThinkSDK.bundle; sourceTree = "<group>"; };
+		86175CEA25BE979800725341 /* AnyThinkBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkBanner.framework; sourceTree = "<group>"; };
+		86175CEB25BE979800725341 /* AnyThinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSDK.framework; sourceTree = "<group>"; };
+		86175CEC25BE979800725341 /* AnyThinkInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkInterstitial.framework; sourceTree = "<group>"; };
+		86175CED25BE979800725341 /* AnyThinkSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSplash.framework; sourceTree = "<group>"; };
+		86175CEE25BE979800725341 /* AnyThinkRewardedVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkRewardedVideo.framework; sourceTree = "<group>"; };
+		86175CEF25BE979800725341 /* AnyThinkNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkNative.framework; sourceTree = "<group>"; };
+		86175CF125BE979B00725341 /* AnyThinkGDTAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkGDTAdapter.framework; sourceTree = "<group>"; };
+		86175CF225BE979B00725341 /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		86175CF425BE979D00725341 /* AnyThinkKuaiShouAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkKuaiShouAdapter.framework; sourceTree = "<group>"; };
+		86175CF525BE979D00725341 /* KSAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KSAdSDK.framework; sourceTree = "<group>"; };
+		86175CF725BE979D00725341 /* MJExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJExtension.framework; sourceTree = "<group>"; };
+		86175CF825BE979D00725341 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		86175CF925BE979D00725341 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		86175CFB25BE979E00725341 /* WindSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindSDK.framework; sourceTree = "<group>"; };
+		86175CFC25BE979E00725341 /* AnyThinkSigmobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSigmobAdapter.framework; sourceTree = "<group>"; };
+		86175CFD25BE979F00725341 /* Sigmob.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Sigmob.bundle; sourceTree = "<group>"; };
+		86175CFF25BE97A300725341 /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		86175D0025BE97A300725341 /* AnyThinkPangleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkPangleAdapter.framework; sourceTree = "<group>"; };
+		86175D0125BE97A300725341 /* BUCNAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUCNAuxiliary.framework; sourceTree = "<group>"; };
+		86175D0225BE97A300725341 /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
+		86175D0325BE97A300725341 /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		86175D2525BEA24200725341 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/lib/libresolv.9.tbd; sourceTree = DEVELOPER_DIR; };
+		86175D2925BEA28300725341 /* libbz2.1.0.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.5.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/lib/libbz2.1.0.5.tbd; sourceTree = DEVELOPER_DIR; };
+		86175D3725BEA7D300725341 /* BGRewardVideoAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGRewardVideoAd.h; sourceTree = "<group>"; };
+		86175D3825BEA7D300725341 /* BGRewardVideoAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGRewardVideoAd.m; sourceTree = "<group>"; };
+		86175D3B25BEBBAE00725341 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = DEVELOPER_DIR; };
+		86175D4025BFC0BE00725341 /* BGAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGAdManager.h; sourceTree = "<group>"; };
+		86175D4125BFC0BE00725341 /* BGAdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGAdManager.m; sourceTree = "<group>"; };
 		A922753D1517C094001B78AA /* Decipher-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decipher-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A92275431517C094001B78AA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -221,31 +310,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86175D3C25BEBBAE00725341 /* AppTrackingTransparency.framework in Frameworks */,
+				86175D2A25BEA28300725341 /* libbz2.1.0.5.tbd in Frameworks */,
+				86175D2625BEA24200725341 /* libresolv.9.tbd in Frameworks */,
 				467AF610232881BA00770112 /* CoreMedia.framework in Frameworks */,
+				86175D1F25BE97A300725341 /* AnyThinkPangleAdapter.framework in Frameworks */,
+				86175D1A25BE97A300725341 /* AFNetworking.framework in Frameworks */,
+				86175D1525BE97A300725341 /* libGDTMobSDK.a in Frameworks */,
+				86175D1125BE97A300725341 /* AnyThinkSplash.framework in Frameworks */,
+				86175D0525BE97A300725341 /* MTGSDKNativeAdvanced.framework in Frameworks */,
+				86175D0725BE97A300725341 /* AnyThinkMintegralAdapter.framework in Frameworks */,
 				467AF60E232881B100770112 /* AVKit.framework in Frameworks */,
 				467AF6052321FBD400770112 /* WebKit.framework in Frameworks */,
+				86175D1625BE97A300725341 /* AnyThinkKuaiShouAdapter.framework in Frameworks */,
 				1A37E9D4200DEEF40078AF72 /* SystemConfiguration.framework in Frameworks */,
 				1AC62C111F4D1E7400F43CB1 /* JavaScriptCore.framework in Frameworks */,
+				86175D2025BE97A300725341 /* BUCNAuxiliary.framework in Frameworks */,
+				86175D1C25BE97A300725341 /* AnyThinkSigmobAdapter.framework in Frameworks */,
+				86175D0B25BE97A300725341 /* MTGSDKReward.framework in Frameworks */,
 				1A499EA91F0CD97F004E6AEC /* libicucore.A.tbd in Frameworks */,
+				86175D2D25BEA35E00725341 /* KSAdSDK.framework in Frameworks */,
 				AB45A1031D34F7E100033ACB /* GameController.framework in Frameworks */,
 				AB45A1011D34F7CC00033ACB /* SystemConfiguration.framework in Frameworks */,
 				ABE456E71D34F87F00F1F400 /* MobileCoreServices.framework in Frameworks */,
 				AB45A0FD1D34F7B000033ACB /* CoreFoundation.framework in Frameworks */,
+				86175D1225BE97A300725341 /* AnyThinkRewardedVideo.framework in Frameworks */,
+				86175D0425BE97A300725341 /* MTGSDKBidding.framework in Frameworks */,
 				AB45A0FB1D34F7A400033ACB /* CFNetwork.framework in Frameworks */,
 				294D7D7C1D0D667B002CE7B7 /* CoreText.framework in Frameworks */,
 				FA676C761C71AFA200E091E3 /* libiconv.dylib in Frameworks */,
 				BA3A85EC1A724AE900924D24 /* Security.framework in Frameworks */,
 				1A676839180E9C1E0076BC67 /* libcocos2d iOS.a in Frameworks */,
 				D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */,
+				86175D1E25BE97A300725341 /* BUAdSDK.framework in Frameworks */,
 				1A82F5FB169AC92500C4B13A /* libsqlite3.dylib in Frameworks */,
+				86175D1825BE97A300725341 /* MJExtension.framework in Frameworks */,
+				86175D0F25BE97A300725341 /* AnyThinkSDK.framework in Frameworks */,
+				86175D0625BE97A300725341 /* MTGSDKBanner.framework in Frameworks */,
 				D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */,
+				86175D1425BE97A300725341 /* AnyThinkGDTAdapter.framework in Frameworks */,
+				86175D0925BE97A300725341 /* MTGSDK.framework in Frameworks */,
+				86175D1B25BE97A300725341 /* WindSDK.framework in Frameworks */,
 				A92275421517C094001B78AA /* QuartzCore.framework in Frameworks */,
+				86175D1925BE97A300725341 /* SDWebImage.framework in Frameworks */,
 				A92275441517C094001B78AA /* OpenGLES.framework in Frameworks */,
+				86175D1325BE97A300725341 /* AnyThinkNative.framework in Frameworks */,
+				86175D0C25BE97A300725341 /* MTGSDKInterstitialVideo.framework in Frameworks */,
 				A92275461517C094001B78AA /* OpenAL.framework in Frameworks */,
 				A92275481517C094001B78AA /* AudioToolbox.framework in Frameworks */,
 				A922754A1517C094001B78AA /* AVFoundation.framework in Frameworks */,
+				86175D0825BE97A300725341 /* MTGSDKInterstitial.framework in Frameworks */,
 				A922754C1517C094001B78AA /* UIKit.framework in Frameworks */,
+				86175D0E25BE97A300725341 /* AnyThinkBanner.framework in Frameworks */,
 				A922754E1517C094001B78AA /* Foundation.framework in Frameworks */,
+				86175D2125BE97A300725341 /* BUFoundation.framework in Frameworks */,
+				86175D0A25BE97A300725341 /* MTGSDKSplash.framework in Frameworks */,
+				86175D1025BE97A300725341 /* AnyThinkInterstitial.framework in Frameworks */,
 				A92275501517C094001B78AA /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +417,98 @@
 			path = mac;
 			sourceTree = "<group>";
 		};
+		86175CDE25BE979600725341 /* mintegral */ = {
+			isa = PBXGroup;
+			children = (
+				86175CDF25BE979600725341 /* MTGSDKBidding.framework */,
+				86175CE025BE979600725341 /* MTGSDKNativeAdvanced.framework */,
+				86175CE125BE979600725341 /* MTGSDKBanner.framework */,
+				86175CE225BE979600725341 /* AnyThinkMintegralAdapter.framework */,
+				86175CE325BE979600725341 /* MTGSDKInterstitial.framework */,
+				86175CE425BE979600725341 /* MTGSDK.framework */,
+				86175CE525BE979600725341 /* MTGSDKSplash.framework */,
+				86175CE625BE979600725341 /* MTGSDKReward.framework */,
+				86175CE725BE979600725341 /* MTGSDKInterstitialVideo.framework */,
+			);
+			path = mintegral;
+			sourceTree = "<group>";
+		};
+		86175CE825BE979800725341 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				86175CE925BE979800725341 /* AnyThinkSDK.bundle */,
+				86175CEA25BE979800725341 /* AnyThinkBanner.framework */,
+				86175CEB25BE979800725341 /* AnyThinkSDK.framework */,
+				86175CEC25BE979800725341 /* AnyThinkInterstitial.framework */,
+				86175CED25BE979800725341 /* AnyThinkSplash.framework */,
+				86175CEE25BE979800725341 /* AnyThinkRewardedVideo.framework */,
+				86175CEF25BE979800725341 /* AnyThinkNative.framework */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		86175CF025BE979B00725341 /* gdt */ = {
+			isa = PBXGroup;
+			children = (
+				86175CF125BE979B00725341 /* AnyThinkGDTAdapter.framework */,
+				86175CF225BE979B00725341 /* libGDTMobSDK.a */,
+			);
+			path = gdt;
+			sourceTree = "<group>";
+		};
+		86175CF325BE979D00725341 /* kuaishou */ = {
+			isa = PBXGroup;
+			children = (
+				86175CF425BE979D00725341 /* AnyThinkKuaiShouAdapter.framework */,
+				86175CF525BE979D00725341 /* KSAdSDK.framework */,
+				86175CF625BE979D00725341 /* thirdRely */,
+			);
+			path = kuaishou;
+			sourceTree = "<group>";
+		};
+		86175CF625BE979D00725341 /* thirdRely */ = {
+			isa = PBXGroup;
+			children = (
+				86175CF725BE979D00725341 /* MJExtension.framework */,
+				86175CF825BE979D00725341 /* SDWebImage.framework */,
+				86175CF925BE979D00725341 /* AFNetworking.framework */,
+			);
+			path = thirdRely;
+			sourceTree = "<group>";
+		};
+		86175CFA25BE979E00725341 /* sigmob */ = {
+			isa = PBXGroup;
+			children = (
+				86175CFB25BE979E00725341 /* WindSDK.framework */,
+				86175CFC25BE979E00725341 /* AnyThinkSigmobAdapter.framework */,
+				86175CFD25BE979F00725341 /* Sigmob.bundle */,
+			);
+			path = sigmob;
+			sourceTree = "<group>";
+		};
+		86175CFE25BE97A300725341 /* pangle_China */ = {
+			isa = PBXGroup;
+			children = (
+				86175CFF25BE97A300725341 /* BUAdSDK.framework */,
+				86175D0025BE97A300725341 /* AnyThinkPangleAdapter.framework */,
+				86175D0125BE97A300725341 /* BUCNAuxiliary.framework */,
+				86175D0225BE97A300725341 /* BUFoundation.framework */,
+				86175D0325BE97A300725341 /* BUAdSDK.bundle */,
+			);
+			path = pangle_China;
+			sourceTree = "<group>";
+		};
+		86175D3625BEA6E800725341 /* ad */ = {
+			isa = PBXGroup;
+			children = (
+				86175D3725BEA7D300725341 /* BGRewardVideoAd.h */,
+				86175D3825BEA7D300725341 /* BGRewardVideoAd.m */,
+				86175D4025BFC0BE00725341 /* BGAdManager.h */,
+				86175D4125BFC0BE00725341 /* BGAdManager.m */,
+			);
+			path = ad;
+			sourceTree = "<group>";
+		};
 		A92275321517C094001B78AA = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +535,15 @@
 		A92275401517C094001B78AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86175D3B25BEBBAE00725341 /* AppTrackingTransparency.framework */,
+				86175D2925BEA28300725341 /* libbz2.1.0.5.tbd */,
+				86175D2525BEA24200725341 /* libresolv.9.tbd */,
+				86175CE825BE979800725341 /* Core */,
+				86175CF025BE979B00725341 /* gdt */,
+				86175CF325BE979D00725341 /* kuaishou */,
+				86175CDE25BE979600725341 /* mintegral */,
+				86175CFE25BE97A300725341 /* pangle_China */,
+				86175CFA25BE979E00725341 /* sigmob */,
 				467AF60F232881BA00770112 /* CoreMedia.framework */,
 				467AF60D232881B100770112 /* AVKit.framework */,
 				467AF6042321FBD400770112 /* WebKit.framework */,
@@ -370,6 +591,7 @@
 		D45446CC156DE73F00887EB5 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				86175D3625BEA6E800725341 /* ad */,
 				051C017421E2F91200D4A347 /* UserConfigIOS.debug.xcconfig */,
 				051C017521E2F91200D4A347 /* UserConfigIOS.release.xcconfig */,
 				22CC756321BA527F00FBF2F7 /* service */,
@@ -429,6 +651,7 @@
 				A92275391517C094001B78AA /* Sources */,
 				A922753A1517C094001B78AA /* Frameworks */,
 				A922753B1517C094001B78AA /* Resources */,
+				86175D2F25BEA35E00725341 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -517,6 +740,9 @@
 			files = (
 				288D4373225B43BE0075FBAB /* assets in Resources */,
 				4033CDC020E493CF00DAA37B /* jsb-adapter in Resources */,
+				86175D0D25BE97A300725341 /* AnyThinkSDK.bundle in Resources */,
+				86175D1D25BE97A300725341 /* Sigmob.bundle in Resources */,
+				86175D2225BE97A300725341 /* BUAdSDK.bundle in Resources */,
 				1AFFCD871F7A5DCF00628F2C /* LaunchScreenBackground.png in Resources */,
 				1AE159EC18C9DF3600FCA372 /* project.json in Resources */,
 				1AD7E0A818C9DB93004817A6 /* main.js in Resources */,
@@ -544,6 +770,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86175D3925BEA7D300725341 /* BGRewardVideoAd.m in Sources */,
+				86175D4225BFC0BE00725341 /* BGAdManager.m in Sources */,
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
 				22CC756521BA528000FBF2F7 /* SDKWrapper.m in Sources */,
@@ -664,6 +892,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/physics $(SRCROOT)/../../cocos2d-x/cocos/math/kazmath $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/cocos/gui $(SRCROOT)/../../cocos2d-x/cocos/network $(SRCROOT)/../../cocos2d-x/cocos/audio/include $(SRCROOT)/../../cocos2d-x/cocos/editor-support $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/sources $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/auto $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/manual $(SRCROOT)/../../cocos2d-x/external/mac/include/v8";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -688,6 +917,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/physics $(SRCROOT)/../../cocos2d-x/cocos/math/kazmath $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/cocos/gui $(SRCROOT)/../../cocos2d-x/cocos/network $(SRCROOT)/../../cocos2d-x/cocos/audio/include $(SRCROOT)/../../cocos2d-x/cocos/editor-support $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/sources $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/auto $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/manual $(SRCROOT)/../../cocos2d-x/external/mac/include/v8";
 				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -702,6 +932,16 @@
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = N69TS6Z8VQ;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mintegral",
+					"$(PROJECT_DIR)/Core",
+					"$(PROJECT_DIR)/gdt",
+					"$(PROJECT_DIR)/kuaishou",
+					"$(PROJECT_DIR)/kuaishou/thirdRely",
+					"$(PROJECT_DIR)/sigmob",
+					"$(PROJECT_DIR)/pangle_China",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -714,12 +954,17 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x/external/ios/libs";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../cocos2d-x/external/ios/libs",
+					"$(PROJECT_DIR)/gdt",
+				);
 				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shkdwh.ymdyz2;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -738,6 +983,16 @@
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = N69TS6Z8VQ;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mintegral",
+					"$(PROJECT_DIR)/Core",
+					"$(PROJECT_DIR)/gdt",
+					"$(PROJECT_DIR)/kuaishou",
+					"$(PROJECT_DIR)/kuaishou/thirdRely",
+					"$(PROJECT_DIR)/sigmob",
+					"$(PROJECT_DIR)/pangle_China",
+				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -749,12 +1004,17 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x/external/ios/libs";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../cocos2d-x/external/ios/libs",
+					"$(PROJECT_DIR)/gdt",
+				);
 				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shkdwh.ymdyz2;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = 1;

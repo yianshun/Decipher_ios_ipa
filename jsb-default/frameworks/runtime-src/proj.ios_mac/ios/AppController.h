@@ -33,5 +33,8 @@
 
 @property(nonatomic, readonly) RootViewController* viewController;
 
+- (void)showRewardVideoAd;
+- (void)showBannerAd;
+- (void)hideBannerAd;
 @end
 
